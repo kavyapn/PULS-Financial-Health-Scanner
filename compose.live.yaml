@@ -1,0 +1,9 @@
+services:
+  puls:
+    environment:
+      JAIF_API_KEY_FILE: /run/secrets/jaif_api_key
+    secrets:
+      - jaif_api_key
+secrets:
+  jaif_api_key:
+    environment: JAIF_API_KEY

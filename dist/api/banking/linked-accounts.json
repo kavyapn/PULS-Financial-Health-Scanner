@@ -1,0 +1,1 @@
+{"provider":"Sample partner bank","accounts":[{"id":"sample-savings","name":"Partner savings account","type":"cash","value":2400,"source":"Demo bank"},{"id":"sample-depot","name":"Partner investment account","type":"investment","value":1300,"source":"Demo bank"}]}

@@ -1,0 +1,181 @@
+{
+  "id": "alex",
+  "asOf": "2026-11-11",
+  "currency": "EUR",
+  "debt": { "monthlyPayments": 225, "balance": 7200 },
+  "capability": {
+    "knowledge": { "QK3": 2, "QK4": 0, "QK5": 1, "QK6": 2, "QK7_1": 0, "QK7_2": 1, "QK7_3": 1, "QK8": 0 },
+    "attitudes": { "QS1_1": 1, "QS1_8": 3, "QS1_9": 3, "QS3_4": 3 }
+  },
+  "weeklyScores": [
+    {
+      "date": "2026-10-07",
+      "low": 60,
+      "high": 60
+    },
+    {
+      "date": "2026-10-14",
+      "low": 57,
+      "high": 57
+    },
+    {
+      "date": "2026-10-21",
+      "low": 60,
+      "high": 60
+    },
+    {
+      "date": "2026-10-28",
+      "low": 54,
+      "high": 54
+    },
+    {
+      "date": "2026-11-04",
+      "low": 58,
+      "high": 58
+    }
+  ],
+  "cash": 4200,
+  "essentials": 1700,
+  "months": [
+    {
+      "month": "2026-08",
+      "label": "Aug",
+      "income": 3200,
+      "essentials": 1700,
+      "discretionary": 650,
+      "saved": 300,
+      "savingsTarget": 200,
+      "onTime": true,
+      "businessIncome": 5400
+    },
+    {
+      "month": "2026-09",
+      "label": "Sep",
+      "income": 1400,
+      "essentials": 1700,
+      "discretionary": 480,
+      "saved": 0,
+      "savingsTarget": 200,
+      "onTime": true,
+      "businessIncome": 1800
+    },
+    {
+      "month": "2026-10",
+      "label": "Oct",
+      "income": 2050,
+      "essentials": 1700,
+      "discretionary": 500,
+      "saved": 0,
+      "savingsTarget": 200,
+      "onTime": true,
+      "businessIncome": 3600
+    }
+  ],
+  "spending": [
+    {
+      "label": "Housing",
+      "amount": 1080
+    },
+    {
+      "label": "Groceries",
+      "amount": 310
+    },
+    {
+      "label": "Utilities & transport",
+      "amount": 310
+    },
+    {
+      "label": "Leisure",
+      "amount": 300
+    },
+    {
+      "label": "Other",
+      "amount": 200
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2026-10-28",
+      "description": "Personal draw from business",
+      "category": "Personal income",
+      "amount": 2050,
+      "account": "Personal current account"
+    },
+    {
+      "date": "2026-10-25",
+      "description": "Other spending to date",
+      "category": "Other",
+      "amount": -200,
+      "account": "Personal current account"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "Leisure to date",
+      "category": "Leisure",
+      "amount": -300,
+      "account": "Personal current account"
+    },
+    {
+      "date": "2026-10-15",
+      "description": "Groceries to date",
+      "category": "Groceries",
+      "amount": -310,
+      "account": "Personal current account"
+    },
+    {
+      "date": "2026-10-09",
+      "description": "Client invoice payment",
+      "category": "Business receipt",
+      "amount": 3600,
+      "account": "Mixed account"
+    },
+    {
+      "date": "2026-10-05",
+      "description": "Transit and household bills",
+      "category": "Utilities & transport",
+      "amount": -310,
+      "account": "Personal current account"
+    },
+    {
+      "date": "2026-10-01",
+      "description": "Monthly rent",
+      "category": "Housing",
+      "amount": -1080,
+      "account": "Personal current account"
+    }
+  ],
+  "depot": {
+    "total": 4000,
+    "allocation": [
+      {
+        "label": "Equity funds",
+        "value": 2700
+      },
+      {
+        "label": "Individual shares",
+        "value": 800
+      },
+      {
+        "label": "Bond funds",
+        "value": 500
+      }
+    ],
+    "largestHolding": {
+      "label": "Rheinstadt Software SE",
+      "share": 20
+    }
+  },
+  "reviewedSpending": false,
+  "literacy": {
+    "correct": 2,
+    "total": 3
+  },
+  "plans": {
+    "funding": 50,
+    "protection": 50
+  },
+  "event": {
+    "mixedBalance": 6800,
+    "personalReclassification": 1500
+  }
+}

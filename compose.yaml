@@ -1,0 +1,8 @@
+services:
+  puls:
+    build: .
+    ports:
+      - "${PULS_BIND:-127.0.0.1}:${PULS_PORT:-8080}:8080"
+    environment:
+      JAIF_BASE_URL: "${JAIF_BASE_URL:-https://hip-gw.hessian.ai/v1}"
+      JAIF_MODEL: "${JAIF_MODEL:-}"

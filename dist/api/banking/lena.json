@@ -1,0 +1,172 @@
+{
+  "id": "lena",
+  "asOf": "2026-11-11",
+  "currency": "EUR",
+  "weeklyScores": [
+    {
+      "date": "2026-10-07",
+      "low": 49,
+      "high": 49
+    },
+    {
+      "date": "2026-10-14",
+      "low": 51,
+      "high": 51
+    },
+    {
+      "date": "2026-10-21",
+      "low": 53,
+      "high": 53
+    },
+    {
+      "date": "2026-10-28",
+      "low": 55,
+      "high": 55
+    },
+    {
+      "date": "2026-11-04",
+      "low": 57,
+      "high": 57
+    }
+  ],
+  "cash": 900,
+  "demoSavings": 5500,
+  "debt": { "monthlyPayments": 0, "balance": 0 },
+  "capability": {
+    "knowledge": { "QK3": 2, "QK4": 0, "QK5": 1, "QK6": 0, "QK7_1": 0, "QK7_2": 1, "QK7_3": 0, "QK8": 0 },
+    "attitudes": { "QS1_1": 3, "QS1_8": 3, "QS1_9": 3, "QS3_4": 3 }
+  },
+  "essentials": 1400,
+  "months": [
+    {
+      "month": "2026-08",
+      "label": "Aug",
+      "income": 2250,
+      "essentials": 1400,
+      "discretionary": 590,
+      "saved": 150,
+      "savingsTarget": 150,
+      "onTime": true
+    },
+    {
+      "month": "2026-09",
+      "label": "Sep",
+      "income": 2250,
+      "essentials": 1400,
+      "discretionary": 730,
+      "saved": 0,
+      "savingsTarget": 150,
+      "onTime": true
+    },
+    {
+      "month": "2026-10",
+      "label": "Oct",
+      "income": 2250,
+      "essentials": 1400,
+      "discretionary": 520,
+      "saved": 150,
+      "savingsTarget": 150,
+      "onTime": true
+    }
+  ],
+  "spending": [
+    {
+      "label": "Housing",
+      "amount": 920
+    },
+    {
+      "label": "Groceries",
+      "amount": 280
+    },
+    {
+      "label": "Utilities & transport",
+      "amount": 200
+    },
+    {
+      "label": "Leisure",
+      "amount": 360
+    },
+    {
+      "label": "Other",
+      "amount": 160
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2026-10-30",
+      "description": "Buffer savings",
+      "category": "Savings transfer",
+      "amount": -150,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-28",
+      "description": "October salary",
+      "category": "Income",
+      "amount": 2250,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-25",
+      "description": "Other spending to date",
+      "category": "Other",
+      "amount": -160,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-21",
+      "description": "Leisure to date",
+      "category": "Leisure",
+      "amount": -360,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-15",
+      "description": "Groceries to date",
+      "category": "Groceries",
+      "amount": -280,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-04",
+      "description": "Transit pass and utilities",
+      "category": "Utilities & transport",
+      "amount": -200,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-01",
+      "description": "Monthly rent",
+      "category": "Housing",
+      "amount": -920,
+      "account": "Current account"
+    }
+  ],
+  "depot": {
+    "total": 300,
+    "allocation": [
+      {
+        "label": "Equity funds",
+        "value": 220
+      },
+      {
+        "label": "Bond funds",
+        "value": 80
+      }
+    ],
+    "largestHolding": {
+      "label": "Largest issuer through funds",
+      "share": 3
+    }
+  },
+  "reviewedSpending": true,
+  "literacy": {
+    "correct": 2,
+    "total": 3
+  },
+  "plans": {
+    "funding": 0,
+    "protection": 50
+  },
+  "event": {}
+}

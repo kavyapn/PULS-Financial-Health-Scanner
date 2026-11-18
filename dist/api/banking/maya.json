@@ -1,0 +1,181 @@
+{
+  "id": "maya",
+  "asOf": "2026-11-11",
+  "currency": "EUR",
+  "debt": { "monthlyPayments": null, "balance": null },
+  "capability": {
+    "knowledge": { "QK3": 2, "QK4": 0, "QK5": 1, "QK6": 0, "QK7_1": 0, "QK7_2": 1, "QK7_3": 0, "QK8": 0 },
+    "attitudes": { "QS1_1": 3, "QS1_8": 3, "QS1_9": 3, "QS3_4": 3 }
+  },
+  "weeklyScores": [
+    {
+      "date": "2026-10-07",
+      "low": 51,
+      "high": 63
+    },
+    {
+      "date": "2026-10-14",
+      "low": 54,
+      "high": 66
+    },
+    {
+      "date": "2026-10-21",
+      "low": 56,
+      "high": 68
+    },
+    {
+      "date": "2026-10-28",
+      "low": 54,
+      "high": 66
+    },
+    {
+      "date": "2026-11-04",
+      "low": 55,
+      "high": 67
+    }
+  ],
+  "cash": 6500,
+  "essentials": 1500,
+  "months": [
+    {
+      "month": "2026-08",
+      "label": "Aug",
+      "income": 3700,
+      "essentials": 1500,
+      "discretionary": 900,
+      "saved": 450,
+      "savingsTarget": 450,
+      "onTime": true
+    },
+    {
+      "month": "2026-09",
+      "label": "Sep",
+      "income": 3700,
+      "essentials": 1500,
+      "discretionary": 1150,
+      "saved": 350,
+      "savingsTarget": 450,
+      "onTime": true
+    },
+    {
+      "month": "2026-10",
+      "label": "Oct",
+      "income": 3700,
+      "essentials": 1500,
+      "discretionary": 1000,
+      "saved": 550,
+      "savingsTarget": 450,
+      "onTime": true
+    }
+  ],
+  "spending": [
+    {
+      "label": "Housing",
+      "amount": 1050
+    },
+    {
+      "label": "Groceries",
+      "amount": 270
+    },
+    {
+      "label": "Utilities & transport",
+      "amount": 180
+    },
+    {
+      "label": "Leisure",
+      "amount": 680
+    },
+    {
+      "label": "Other",
+      "amount": 320
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2026-10-30",
+      "description": "Monthly savings",
+      "category": "Savings transfer",
+      "amount": -550,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-28",
+      "description": "October salary",
+      "category": "Income",
+      "amount": 3700,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-25",
+      "description": "Other spending to date",
+      "category": "Other",
+      "amount": -320,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "Leisure to date",
+      "category": "Leisure",
+      "amount": -680,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-15",
+      "description": "Groceries to date",
+      "category": "Groceries",
+      "amount": -270,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-06",
+      "description": "Transit and household bills",
+      "category": "Utilities & transport",
+      "amount": -180,
+      "account": "Current account"
+    },
+    {
+      "date": "2026-10-01",
+      "description": "Monthly rent",
+      "category": "Housing",
+      "amount": -1050,
+      "account": "Current account"
+    }
+  ],
+  "depot": {
+    "total": 145000,
+    "allocation": [
+      {
+        "label": "Individual shares",
+        "value": 87000
+      },
+      {
+        "label": "Equity funds",
+        "value": 29000
+      },
+      {
+        "label": "Bonds",
+        "value": 21750
+      },
+      {
+        "label": "Cash & money market",
+        "value": 7250
+      }
+    ],
+    "largestHolding": {
+      "label": "Atlas Industrie AG",
+      "share": 60
+    }
+  },
+  "reviewedSpending": true,
+  "literacy": {
+    "correct": 1,
+    "total": 3
+  },
+  "plans": {
+    "funding": 50,
+    "protection": null
+  },
+  "event": {
+    "distribution": 8500
+  }
+}
